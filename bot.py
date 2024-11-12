@@ -5,6 +5,8 @@ from config import LOGGER
 
 from user import User
 import pyromod.listen
+import time
+time.tzset()
 
 
 class Bot(Client):
